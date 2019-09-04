@@ -1,5 +1,5 @@
 <h1 align="center">
-Project Gaia
+Demons
 </h1>
 
 <center>
@@ -11,22 +11,21 @@ Project Gaia
 
 </center> 
 
-
-<div align=center><img width="400px" src="logo.png"/></div>
+<div align=center><img width="400px" src="timg.jpeg"/></div>
 
 ## Demo Page
 
-[ Demo Page](https://szhielelp.github.io/JekyllTheme-ProjectGaia/#/)
+[ Demo Page](http://127.0.0.1:4000/)
 
 ## Documents
 
-[    Documents    ](https://szhielelp.github.io/JekyllTheme-ProjectGaia-Docs/#/)
+[Documents](http://china.nba.com)
 
 ## Author
 
 👤 **LuoDongXu1999**
 
-* Github: [@LuoDongXu1999](https://github.com/szhielelp)
+* Github: [LuoDongXu1999](https://github.com/LuoDongXu1999)
 * Blog: [http://china.nba.com](http://china.nba.com)
 
 ## Show your support

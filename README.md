@@ -12,10 +12,9 @@ Demons
 </center> 
 
 <div align=center><img width="400px" src="timg.jpeg"/></div>
-
 ## Demo Page
 
-[ Demo Page](http://127.0.0.1:4000/)
+[ Demo Page](https://luodongxu1999.github.io/)
 
 ## Documents
 

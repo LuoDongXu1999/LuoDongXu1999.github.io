@@ -58,7 +58,7 @@
         <a href="/index.html#archives">
             <i class="fa fa-file-archive-o" aria-hidden="true"></i>
             Archives  
-            <span class="text-warning pull-right">6</span>
+            <span class="text-warning pull-right">1</span>
         </a>
     </li>
     <li title="categories">
@@ -101,7 +101,7 @@
         <a href="/index.html#archives">
             <i class="fa fa-file-archive-o" aria-hidden="true"></i>
             Archives  
-            <span class="text-warning pull-right">6</span>
+            <span class="text-warning pull-right">1</span>
         </a>
     </li>
     <li title="categories">
@@ -142,95 +142,88 @@
 <blockquote>
   <ul>
     <li>$ mkdir learngit    创建一个名为learngit的空目录</li>
-    <li>$ cd learngit    进入learngit目录</li>
-    <li>
-      <h2 id="-pwd----用于显示当前目录">$ pwd    用于显示当前目录</h2>
-    </li>
-    <li>$ git init    初始化一个Git仓库</li>
-    <li>
-      <h2 id="目录会多一个git----默认隐藏-可以用ls--ah看见">目录会多一个.git    默认隐藏 可以用ls -ah看见</h2>
-    </li>
+    <li>$ cd learngit    进入learngit目录
+pwd    用于显示当前目录
+—</li>
+    <li>$ git init    初始化一个Git仓库
+目录会多一个.git    默认隐藏 可以用ls -ah看见
+—</li>
     <li>$ vim readme.txt    创建一个名为readme.txt的文件并编写</li>
-    <li>$ git add readme.txt    文件添加仓库</li>
-    <li>
-      <h2 id="-git-commit--m-本次提交的说明">$ git commit -m “本次提交的说明”</h2>
+    <li>$ git add readme.txt    文件添加仓库
+git commit -m “本次提交的说明”
+—
       <h6 id="时光机穿梭">时光机穿梭</h6>
     </li>
-    <li>$ git status    查看当前仓库的状态</li>
-    <li>
-      <h2 id="-git-diff-readmetxt----查看修改内容">$ git diff readme.txt    查看修改内容</h2>
+    <li>$ git status    查看当前仓库的状态
+git diff readme.txt    查看修改内容
+—
       <h6 id="版本回退">版本回退</h6>
     </li>
     <li>$ git log   查看提交历史</li>
     <li>$ git log –pretty=oenline    更加清晰的查看</li>
     <li>$ git reset     回退版本    HEAD指向当前版本</li>
     <li>$ git reset –hard commit_id    版本穿梭</li>
-    <li>$ cat readme.txt 查看文件内容</li>
-    <li>
-      <h2 id="-git-reflog----查看命令历史">$ git reflog    查看命令历史</h2>
+    <li>$ cat readme.txt 查看文件内容
+ git reflog    查看命令历史
+—
       <h6 id="工作区和暂存区">工作区和暂存区</h6>
     </li>
-    <li><img src="/home/demons/下载/0.jpeg" alt="" /></li>
-    <li><img src="/home/demons/下载/1.jpeg" alt="" /></li>
+    <li><img src="/img/0.jpeg" alt="" /></li>
+    <li><img src="/img/1.jpeg" alt="" /></li>
     <li>
-      <h2><img src="/home/demons/下载/2.jpeg" alt="" /></h2>
+      <h2><img src="/img/2.jpeg" alt="" /></h2>
       <h6 id="管理修改">管理修改</h6>
-    </li>
-    <li>
-      <h2 id="-git-diff-head--readmetxt----查看工作区和版本库最新版本的区别">$ git diff HEAD – readme.txt    查看工作区和版本库最新版本的区别</h2>
+      <p>git diff HEAD – readme.txt    查看工作区和版本库最新版本的区别
+—</p>
       <h6 id="撤销管理">撤销管理</h6>
     </li>
-    <li>$ git checkout – readme.txt    丢弃工作区的修改</li>
-    <li>
-      <h2 id="-git-reset-head-readmetxt----回退当前版本">$ git reset HEAD readme.txt    回退当前版本</h2>
+    <li>$ git checkout – readme.txt    丢弃工作区的修改
+git reset HEAD readme.txt    回退当前版本
+—
       <h6 id="删除文件">删除文件</h6>
-    </li>
-    <li>
-      <h2 id="-rm-testtxt----删除文件名为testtxt">$ rm test.txt    删除文件名为test.txt</h2>
+      <p>rm test.txt    删除文件名为test.txt
+—</p>
       <h6 id="远程仓库">远程仓库</h6>
-    </li>
-    <li>
-      <h2 id="-ssh-keygen--t-rsa--c-邮件地址">$ ssh-keygen -t rsa -C “邮件地址”/</h2>
+      <p>ssh-keygen -t rsa -C “邮件地址”/
+—</p>
       <h6 id="添加远程仓库">添加远程仓库</h6>
     </li>
     <li>$ git remote add origin git@github.com:<GitHub账户名>/laearngit.git    关联远程库</GitHub账户名></li>
-    <li>$ git push -u origin master   第一次 推送master分支到远程库</li>
-    <li>
-      <h2 id="-git-push-origin-msater----推送最新修改">$ git push origin msater    推送最新修改</h2>
+    <li>$ git push -u origin master   第一次 推送master分支到远程库
+git push origin msater    推送最新修改
+—
       <h6 id="从远程库克隆">从远程库克隆</h6>
     </li>
-    <li>$ git clone git@github.com<邮件地址>/gitskills.git</邮件地址></li>
-    <li>
-      <h2 id="-httpsgithubcommichaelliaogitskillsgit---速度慢">$ https://github.com/michaelliao/gitskills.git   速度慢</h2>
-      <h6 id="创建与合并分支">创建与合并分支</h6>
+    <li>$ git clone git@github.com<邮件地址>/gitskills.git
+https://github.com/michaelliao/gitskills.git   速度慢
+---
+</邮件地址>      <h6 id="创建与合并分支">创建与合并分支</h6>
     </li>
     <li>$ git checkout -b dev    创建dev分支并切换到dev分支    $ git switch -c dev</li>
     <li>$ git branch dev    创建dev分支</li>
     <li>$ git checkout dev    切换到dev的分支    $ git switch dev</li>
-    <li>$ git branch    查看当前分支</li>
-    <li>$ git merge dev    合并指定分支到当前分支</li>
-    <li>
-      <h2 id="-git-branch--d-dev----删除dev分支">$ git branch -d dev    删除dev分支</h2>
+    <li>$ git branch    查看当前分支
+ git merge dev    合并指定分支到当前分支
+git branch -d dev    删除dev分支
+—
       <h6 id="解决冲突">解决冲突</h6>
-    </li>
-    <li>
-      <h2 id="-git-log-graph----查看分支合并图">$ git log –graph    查看分支合并图</h2>
+      <p>git log –graph    查看分支合并图
+—</p>
       <h6 id="分支管理策略">分支管理策略</h6>
-    </li>
-    <li>
-      <h2 id="合并分支时加上no-ff参数就可以用普通模式合并合并后的历史有分支能看出来曾经做过合并而fast-forward合并就看不出来曾经做过合并">合并分支时，加上–no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。</h2>
+      <p>合并分支时，加上–no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+—</p>
       <h6 id="bug分支">Bug分支</h6>
     </li>
     <li>$ git stash    储藏工作现场</li>
     <li>$ git stash list    查看工作现场</li>
-    <li>$ git stash apply    恢复但不删除    git stash drop    删除内容</li>
-    <li>
-      <h2 id="-git-stash-pop----恢复并删除">$ git stash pop    恢复并删除</h2>
+    <li>$ git stash apply    恢复但不删除    git stash drop    删除内容
+git stash pop    恢复并删除
+—
       <h6 id="feature分支">Feature分支</h6>
     </li>
-    <li>$ git branch -d feature-vulcan</li>
-    <li>
-      <h2 id="-git-branch--d-feature-vulcan----强制删除">$ git branch -D feature-vulcan    强制删除</h2>
+    <li>$ git branch -d feature-vulcan
+git branch -D feature-vulcan    强制删除
+—
       <h6 id="多人协作">多人协作</h6>
     </li>
     <li>$ git remote    查看远程库信息</li>
@@ -246,25 +239,25 @@
 —
       <h6 id="rebase">Rebase</h6>
     </li>
-    <li>rebase操作可以把本地未push的分叉提交历史整理成直线；</li>
-    <li>
-      <h2 id="rebase的目的是使得我们在查看历史提交的变化时更容易因为分叉的提交需要三方对比">rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。</h2>
+    <li>rebase操作可以把本地未push的分叉提交历史整理成直线；
+rebase的目的是使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比。
+—
       <h6 id="创建标签">创建标签</h6>
     </li>
     <li>命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id</tagname></li>
-    <li>命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；</tagname></li>
-    <li>
-      <h2 id="命令git-tag可以查看所有标签">命令git tag可以查看所有标签。</h2>
-      <h6 id="操作标签">操作标签</h6>
+    <li>命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+命令git tag可以查看所有标签。
+---
+</tagname>      <h6 id="操作标签">操作标签</h6>
     </li>
     <li>命令git push origin <tagname>可以推送一个本地标签；</tagname></li>
     <li>命令git push origin –tags可以推送全部未推送过的本地标签；</li>
-    <li>命令git tag -d <tagname>可以删除一个本地标签；</tagname></li>
-    <li>
-      <h2 id="命令git-push-origin-refstags可以删除一个远程标签">命令git push origin :refs/tags/<tagname>可以删除一个远程标签</tagname></h2>
-      <h6 id="自定义git">自定义Git</h6>
+    <li>命令git tag -d <tagname>可以删除一个本地标签；
+命令git push origin :refs/tags/<tagname>可以删除一个远程标签
+---
+</tagname></tagname>      <h6 id="自定义git">自定义Git</h6>
+      <p>git config –global color.ui true</p>
     </li>
-    <li>$ git config –global color.ui true</li>
   </ul>
 </blockquote>
 
